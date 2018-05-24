@@ -27,7 +27,7 @@ par (mfrow = c(2,2))
 plot( x=filteredPowerData$DateTime, y=filteredPowerData$Global_active_power, 
       type = "l", xlab = '', ylab = 'Global Active Power')
 
-plot( x=filteredPowerData$DateTime, y=filteredPowerData$Global_active_power, 
+plot( x=filteredPowerData$DateTime, y=filteredPowerData$Voltage, 
       type = "l", xlab = 'datetime', ylab = 'Voltage')
 
 plot( x=filteredPowerData$DateTime, y=filteredPowerData$Sub_metering_1, 
